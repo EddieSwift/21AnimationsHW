@@ -10,11 +10,6 @@
 
 @interface ViewController ()
 
-//@property (weak, nonatomic) UIView *myView1;
-//@property (weak, nonatomic) UIView *myView2;
-//@property (weak, nonatomic) UIView *myView3;
-//@property (weak, nonatomic) UIView *myView4;
-
 @end
 
 @implementation ViewController
@@ -27,20 +22,11 @@
     self.view3.backgroundColor = [self randomColor];
     self.view4.backgroundColor = [self randomColor];
     
-    //self.myView1 = _view1;
-    
-
 }
 
 - (void) viewDidAppear:(BOOL)animated {
     
     [super viewDidAppear:animated];
-    
-//    [UIView animateWithDuration:5 animations:^{
-//
-//        self.view1.center = CGPointMake(CGRectGetWidth(self.view.bounds) - CGRectGetWidth(self.view1.frame) / 2, 70);
-//
-//    }];
     
     [UIView animateWithDuration:5
                           delay:3
