@@ -15,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UIView *view3;
 @property (weak, nonatomic) IBOutlet UIView *view4;
 
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *views;
+
 
 
 @end
